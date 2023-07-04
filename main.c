@@ -22,6 +22,10 @@ double get_time_elapsed() {
 
         if (scanf("%lf", &time_elapsed) != 1) {
             printf("Error reading input. Please enter a valid floating-point number.\n");
+
+            // Clear the input buffer
+            while (getchar() != '\n');
+
             return ERROR_INVALID_INPUT;
         }
 
