@@ -8,12 +8,12 @@ This is a simple C program that calculates the approximate distance of a thunder
 2. Open a terminal or command prompt and navigate to the directory where the code is located.
 3. Compile the code using a C compiler (e.g., GCC or Clang) with the following command:
    ```
-   gcc -o thunderstorm_distance_calculator thunderstorm_distance_calculator.c
+   gcc main.c -o tstorm_dist_calc
    ```
    Note: Make sure you have a C compiler installed on your system before proceeding.
 4. Run the compiled program with:
    ```
-   ./thunderstorm_distance_calculator
+   ./tstorm_dist_calc
    ```
 5. Follow the on-screen instructions to enter the time elapsed between seeing the lightning and hearing the thunder.
 
